@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/* 
+  한글: 'Noto Sans KR' 400, 700 사용 (출처: https://gwfh.mranftl.com/fonts/noto-sans-kr?subsets=korean)
+  영문/숫자/기호: 'Poppins' 400, 600 사용 (출처: https://gwfh.mranftl.com/fonts/poppins?subsets=latin)
+  코드: 'Nanum Gothic Coding' 400
+*/
+
+/* Noto Sans KR */
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/noto-sans-kr-regular.eot');
+  src: local(''),
+        url('./fonts/noto-sans-kr-regular.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/noto-sans-kr-regular.woff2') format('woff2'),
+        url('./fonts/noto-sans-kr-regular.woff') format('woff'),
+        url('./fonts/noto-sans-kr-regular.svg#NotoSansKR') format('svg');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/noto-sans-kr-700.eot');
+  src: local(''),
+        url('./fonts/noto-sans-kr-700.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/noto-sans-kr-700.woff2') format('woff2'),
+        url('./fonts/noto-sans-kr-700.woff') format('woff'),
+        url('./fonts/noto-sans-kr-700.svg#NotoSansKR') format('svg');
+}
+
+/* Poppins */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/poppins-regular.eot');
+  src: local(''),
+      url('./fonts/poppins-regular.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/poppins-regular.woff2') format('woff2'),
+      url('./fonts/poppins-regular.woff') format('woff'),
+      url('./fonts/poppins-regular.ttf') format('truetype'),
+      url('./fonts/poppins-regular.svg#Poppins') format('svg');
+  unicode-range: U+0030-0039, U+0041-005A, U+0061-007A, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/poppins-600.eot');
+  src: local(''),
+      url('./fonts/poppins-600.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/poppins-600.woff2') format('woff2'),
+      url('./fonts/poppins-600.woff') format('woff'),
+      url('./fonts/poppins-600.ttf') format('truetype'),
+      url('./fonts/poppins-600.svg#Poppins') format('svg');
+  unicode-range: U+0030-0039, U+0041-005A, U+0061-007A, U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E;
+}
+
+/* Nanum Gothic Coding */
+@font-face {
+  font-family: 'Nanum Gothic Coding';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/nanum-gothic-coding-regular.eot');
+  src: local(''),
+      url('./fonts/nanum-gothic-coding-regular.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/nanum-gothic-coding-regular.woff2') format('woff2'),
+      url('./fonts/nanum-gothic-coding-regular.woff') format('woff'),
+      url('./fonts/nanum-gothic-coding-regular.ttf') format('truetype'),
+      url('./fonts/nanum-gothic-coding-regular.svg#NanumGothicCoding') format('svg');
+}
